@@ -332,27 +332,3 @@ if __name__ == '__main__':
 
 		elif "what is" in query or "who is" in query:
 			
-			# Use the same API key
-			# that we have generated earlier
-			client = wolframalpha.Client("same api key")
-			res = client.query(query)
-			
-			try:
-				print (next(res.results).text)
-				speak (next(res.results).text)
-			except StopIteration:
-				print ("No results")
-        
-		elif "who are the members of group number 49" in query:
-    			speak("member of group number 49 are", "sir ujjwal","sir sanket","sir adinath","sir yash")
-        
-		elif "who is the head of group number 49" in query:
-    			speak("head of group 49 is Professor Gauraw jumnake sir")
-	    
-		elif "Jarvis tell us about yourself" in query:
-    			speak("OK i am jarvis 2.o created by members of group number 49 under gidence of professor Gauraw jumnake sir.i am virtual assistant.who can help you in your day today life.i can do virtually whatever you want.such as webbrowsing,opning applications,writing short notes.i can be your 24 7 assistant to help you sir.")
-
-
-		# elif "" in query:
-			# Command go here
-			# For adding more commands
