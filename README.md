@@ -6,7 +6,7 @@ JARVIS $2.0$
 Before starting the jarvis 2.0, you need some important modules to run you jarvis
 
 Steps to install : 
-                    1 - open cmd(for windows users) terminal
+                    1 - open cmd(for windows users) terminal(for mac users)
                     2 - pip install module name
                     
 Here are all the modules which you need to install
